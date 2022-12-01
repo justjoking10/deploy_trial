@@ -127,6 +127,9 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [BASE_DIR, 'static']
+STATIC_ROOT = 'var/www/JerichoGianJohn/static'
+MEDIA_URL = 'Media/'
+MEDIA_ROOT = [BASE_DIR, 'Media']
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 # Default primary key field type
